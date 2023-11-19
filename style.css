@@ -1,0 +1,97 @@
+.header{
+    background-color: rgb(70, 7, 129);
+}
+.logo__title{
+    color: beige;
+
+}
+
+.menu{
+    list-style: none;
+
+}
+.menu__link{
+    color: beige;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container,.header__logo,.header__menu,.menu{
+    display: flex;
+}
+.container{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.header__menu{
+    width: 50%;
+}
+
+.menu{
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 15%;
+}
+.banner{
+    background-image:url('img/banner-bg.jpg');
+    height:400px;
+    text-align: center;
+    padding-top: 150px;
+}
+.banner__title{
+    color: beige;
+    font-size:56px;
+    margin-bottom: 10px;
+}
+.banner__description{
+    color: beige;
+    font-size: 24px;
+}
+.products__title{
+    font-size: 32px ;
+    margin-bottom: 10px;
+    
+}
+
+
+.card{
+    box-shadow: 3px 41px 17px 9px rgba(44, 126, 189, 0.34);
+width:25%;
+text-align:center;
+padding:25px 0px 25px 0px;
+display: inline-block;
+margin: 20px;
+}
+.card_title{
+    font-size:28px;
+    color:blueviolet;
+}
+.card_description{
+    font-size:14px;
+    color:blueviolet;
+}
+.card_link{
+    text-decoration: none;
+    background-color: blanchedalmond;
+    color:goldenrod;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+.card_link:hover{
+    background-color:rgba(44, 126, 189, 0.34)
+}
+.cards{
+    text-align:center;
+}
+
+.footer{
+    background-image: url('img/footer-bg.jpg');
+    min-height: 10px;
+}
+.copyright{
+    color:bisque;
+    font-size: 20px;
+}
